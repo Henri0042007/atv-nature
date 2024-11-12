@@ -47,4 +47,7 @@ section.banner h2{
     width: 30%;
     background: rgb(59, 134, 134, 0.5);
 }
+.etapas {
+    display: flex;
+}
 
