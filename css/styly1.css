@@ -38,8 +38,7 @@ header nav .atual:hover{
 section.banner {
     background: linear-gradient(rgba(121,189,154,0.2),rgba(121,189,154,0.2)),url(../img/inicio.png) no-repeat center center;
     background-size: 100% auto, 100% auto;
-    padding: 30px 10vw 30px 10vw;
-    
+    padding: 3vw 10vw 30vw 10vw;
 }
 section.banner h2{
     color: white;
@@ -47,7 +46,83 @@ section.banner h2{
     width: 30%;
     background: rgb(59, 134, 134, 0.5);
 }
-.etapas {
+.etapas ul{
     display: flex;
+    text-align: center;
+    margin: 4vw 0 0 0;
+}
+.etapas ul li h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.etapas ul li span{
+    font-size: 5rem;
+    color: #3b8686;
+}
+.etapas ul li p{
+    font-size: 1vw;
+    margin: 2vw 7vw;
+}
+.etapas button{
+    background-color:#3b8686;
+    padding: 0.5vw;
+    color: white;
+}
+.canoa{
+    background: linear-gradient(rgba(121,189,154,50%),rgba(121,189,154,50%)),url(../img/back-numeros.png) no-repeat center center;
+    background-size: 100% auto, 100% auto;
+}
+.canoa ul{
+    display: flex;
+    text-align: center;
+    margin: 4vw ;
+}
+.canoa ul li{
+    margin: 0 0 0 10vw;
 }
 
+.canoa span{
+    font-size: 5rem;
+    color: white;
+}
+.canoa ul li p{
+    color: white;
+    font-size: 2vw;
+}
+.video .dimae2 {
+    display: flex;
+}
+.video p{
+    margin: 2vw 0 0 2vw ;
+
+}
+
+
+footer div{
+    background-color: #3B8686;
+    color: white;
+    padding: 3vw 0 1vw 0;
+}
+footer .maior{
+    display: flex;
+    justify-content: center;
+}
+footer .maior div{
+    margin-right: 20vw;
+}
+footer .maior .ultimo{
+    margin-right: 0;
+}
+footer .maior .primeira ul{
+    display: flex;
+}
+footer .maior .primeira ul li{
+    margin-right: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+footer .maior .primeira ul span{
+    font-size: 1.5rem;
+}
+footer .maior .segunda p span{
+    font-weight: bold;
+}
